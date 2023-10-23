@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário de Pedido</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="socorro">
+	<!--formulário de compra-->
+	<section class="form-responsivo">
+		<div class="container-pedido">
+			<div class="formu">
+				<form action="#">
+					<div class="form-header">
+						<div class="title">
+							<h1>Formulário de Compra</h1>
+						</div>
+						<div class="input-group">
+							<div class="input-box">
+								<label for="name">Primeiro nome </label>
+								<input id="name" type="text" name="name" placeholder="digite seu nome completo" required>
+							</div>
+
+							<div class="input-box">
+								<label for="cpf">CPF/CNPJ</label>
+								<input id="cpf" type="text" name="cpf" placeholder="digite seu CPF ou CNPJ" required>
+							</div>
+
+							<div class="input-box">
+								<label for="email">E-mail</label>
+								<input id="email" type="email" name="email" placeholder="digite seu email" required>
+							</div>
+
+							<div class="input-box">
+								<label for="number">Celular</label>
+								<input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+							</div>
+
+							<div class="input-box">
+								<p> Cartões aceitos:</p>
+								<img src="imagens/card_img.png" alt="cards" height="28px">
+							</div>
+
+							<div class="input-box">
+								<label for="cardname">Nome do titular</label>
+								<input id="cardname" type="text" name="cardname" placeholder="nome do titular" required>
+							</div>
+
+							<div class="input-box">
+								<label for="cardnumber">Número do cartão </label>
+								<input id="cardnumber" type="text" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+							</div>
+
+							<div class="input-box">
+								<label for="cardate">Validade</label>
+								<input id="cardate" type="month" name="cardate" placeholder="janeiro" required>
+							</div>
+
+							<div class="input-box">
+								<label for="carcvv">CVV</label>
+								<input id="cardcvv" type="text" name="cardcvv" placeholder="CVV" required>
+							</div>
+						</div>
+						<div class="buy-button">
+							<button><a href="#">Finalizar Compra</a></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+  	<!-- Rodapé -->
+	<footer class="rodape">
+
+		<!-- Mapa do site no "Rodapé" -->
+		<div class="conteiner-mapadosite">
+			<ul>
+				<li><a href="index.html">Página Inicial</a></li>
+				<p>|</p>
+				<li><a href="cardapio.html" target="_blank">Cardápio</a></li>
+				<p>|</p>
+				<li><a href="#sobrenos">Sobre Nós</a></li>
+				<p>|</p>
+				<li><a href="#faleconosco">Fale Conosco</a></li>
+			</ul>
+		</div>
+
+		<!-- Logo, Slogan, Copyright no "Rodapé" -->
+		<div class="logo-rodape">
+			<div class="img-logo3"></div>
+		</div>
+
+		<div class="box-slogan">
+			<div class="slogan">
+				<p>"Royal's, uma fatia digna da realeza."</p>
+			</div>
+		</div>
+
+		<div class="box-copyright">
+			<div class="copyright">
+				<p>&#169; 2023 - Todos os direitos reservados a Royal's Pizzaria. &#10072; <a class="devs"
+						href="https://ucb.catolica.edu.br/portal/conheca/institucional/catolica-de-brasilia/" target="_blank">By Alunos UCB.</a></p>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
